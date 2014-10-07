@@ -43,9 +43,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShellArgumentException.cs" />
+    <Compile Include="ShellFlagParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\rkCommandLine\rkCommandLine\rkCommandLine.csproj">
+      <Project>{e1010d64-18c9-4800-93a4-0a16a4cebdeb}</Project>
+      <Name>rkCommandLine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
