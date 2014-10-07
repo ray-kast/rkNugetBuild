@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>myPkg</id>
+    <version>1.0.0.0</version>
+    <authors>rk1024</authors>
+    <owners>rk1024</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package.</description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>

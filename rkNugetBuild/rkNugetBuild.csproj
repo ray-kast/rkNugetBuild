@@ -48,12 +48,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\rkNugetBuild.exe.config" />
+    <None Include="bin\Debug\rkNugetBuild.vshost.exe.config" />
+    <None Include="bin\Debug\rkNugetBuild.vshost.exe.manifest" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\rkCommandLine\rkCommandLine\rkCommandLine.csproj">
-      <Project>{e1010d64-18c9-4800-93a4-0a16a4cebdeb}</Project>
+      <Project>{50fd8fe8-a58e-4f60-8b3d-99d5ed13dd1d}</Project>
       <Name>rkCommandLine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\rkCommandLine.dll" />
+    <Content Include="bin\Debug\rkCommandLine.pdb" />
+    <Content Include="bin\Debug\rkNugetBuild.exe" />
+    <Content Include="bin\Debug\rkNugetBuild.pdb" />
+    <Content Include="bin\Debug\rkNugetBuild.vshost.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
